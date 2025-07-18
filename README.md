@@ -1,98 +1,84 @@
-# 📚 Tiation Rigger Shared Libraries
+# tiation-rigger-shared-libraries
 
 <div align="center">
 
-![Tiation Ecosystem](https://img.shields.io/badge/🔮_TIATION_ECOSYSTEM-tiation_rigger_shared_libraries-00FFFF?style=for-the-badge&labelColor=0A0A0A&color=00FFFF)
+![tiation-rigger-shared-libraries Banner](https://img.shields.io/badge/🔮_TIATION_ECOSYSTEM-tiation-rigger-shared-libraries-00FFFF?style=for-the-badge&labelColor=0A0A0A&color=00FFFF)
 
-**Enterprise-grade solution in the Tiation ecosystem**
+**Enterprise-grade solution: tiation-rigger-shared-libraries**
 
 *Professional • Scalable • Mission-Driven*
 
-[![🌐_Live_Demo](https://img.shields.io/badge/🌐_Live_Demo-View_Project-00FFFF?style=flat-square&labelColor=0A0A0A)](https://github.com/tiation/tiation-rigger-shared-libraries)
-[![📚_Documentation](https://img.shields.io/badge/📚_Documentation-Complete-007FFF?style=flat-square&labelColor=0A0A0A)](https://github.com/tiation/tiation-rigger-shared-libraries)
-[![⚡_Status](https://img.shields.io/badge/⚡_Status-Active_Development-FF00FF?style=flat-square&labelColor=0A0A0A)](https://github.com/tiation/tiation-rigger-shared-libraries)
-[![📄_License](https://img.shields.io/badge/📄_License-MIT-00FFFF?style=flat-square&labelColor=0A0A0A)](https://github.com/tiation/tiation-rigger-shared-libraries)
+[![🌐_Live_Demo](https://img.shields.io/badge/🌐_Live_Demo-View_Project-00FFFF?style=flat-square&labelColor=0A0A0A)](https://tiation.github.io/tiation-rigger-shared-libraries)
+[![📚_Documentation](https://img.shields.io/badge/📚_Documentation-Complete-007FFF?style=flat-square&labelColor=0A0A0A)](https://tiation.github.io/tiation-rigger-shared-libraries)
+[![🏗️_Architecture](https://img.shields.io/badge/🏗️_Architecture-Diagram-FF00FF?style=flat-square&labelColor=0A0A0A)](https://tiation.github.io/tiation-rigger-shared-libraries/architecture)
+[![⚡_Status](https://img.shields.io/badge/⚡_Status-Active Development-FF00FF?style=flat-square&labelColor=0A0A0A)](https://github.com/tiation/tiation-rigger-shared-libraries)
+[![📄_License](https://img.shields.io/badge/📄_License-MIT-00FFFF?style=flat-square&labelColor=0A0A0A)](https://github.com/tiation/tiation-rigger-shared-libraries/blob/main/LICENSE)
 
 </div>
 
----
-<div align="center">
+## 🚀 Overview
 
-![Tiation Rigger Libraries](https://img.shields.io/badge/Libraries-Enterprise%20Grade-00FFFF?style=for-the-badge&logo=typescript&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Active-00FF00?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+Enterprise-grade solution: tiation-rigger-shared-libraries
 
-**Enterprise-grade shared libraries and common utilities for the Tiation Rigger platform**
+### ✨ Key Features
 
-[![🌐 Live Documentation](https://img.shields.io/badge/📚%20Documentation-Live%20Site-00FFFF?style=flat-square)](https://tiation.github.io/tiation-rigger-shared-libraries/)
-[![💻 GitHub Repository](https://img.shields.io/badge/💻%20GitHub-Repository-181717?style=flat-square&logo=github)](https://github.com/tiation/tiation-rigger-shared-libraries)
-[![🔧 Main Workspace](https://img.shields.io/badge/🔧%20Main-Workspace-00FFFF?style=flat-square)](https://github.com/tiation/tiation-rigger-workspace)
-
-</div>
+- 🎯 **Feature 1** - Description 1
+- 🔧 **Feature 2** - Description 2
+- 🌟 **Feature 3** - Description 3
+- 🛡️ **Feature 4** - Description 4
 
 ---
 
-## 📖 About
+## 🏗️ Architecture
 
-The Tiation Rigger Shared Libraries repository provides enterprise-grade shared libraries and common utilities used across all Tiation Rigger platform components. This comprehensive collection ensures consistency, reduces duplication, and maintains high code quality across the entire ecosystem.
+![Architecture Diagram](assets/architecture/tiation-rigger-shared-libraries-architecture.svg)
 
-### 🎯 Key Highlights
-- **Type Safety**: Comprehensive TypeScript definitions and interfaces
-- **Reusable Components**: Common utilities and helper functions
-- **Validation Framework**: Schema validation and data sanitization
-- **Configuration Management**: Centralized configuration handling
-- **Enterprise Security**: Authentication, authorization, and audit logging
+### System Components
 
----
+```mermaid
+graph TB
+    A[Component 1] --> B[Component 2]
+    B --> C[Component 3]
+    C --> D[Component 4]
+    
+    style A fill:#00ffff,stroke:#ff00ff,stroke-width:2px
+    style B fill:#ff00ff,stroke:#00ffff,stroke-width:2px
+    style C fill:#00ffff,stroke:#ff00ff,stroke-width:2px
+    style D fill:#ff00ff,stroke:#00ffff,stroke-width:2px
+```
 
-## 🖼️ Library Architecture
+### Technology Stack
 
-![Library Architecture](./assets/images/library-architecture.png)
-
-*Modular library structure with dependency management and type safety*
-
----
-
-## 🚀 Features
-
-### 🔧 Core Libraries
-- **Common Types**: TypeScript definitions and interfaces for all platform components
-- **Utility Functions**: Reusable helper functions for data manipulation and processing
-- **Validation Engine**: Schema validation and data sanitization using Zod
-- **Configuration Manager**: Centralized configuration management with environment support
-- **Constants & Enums**: Platform-wide constants and enumeration definitions
-
-### 🔐 Security & Authentication
-- **JWT Utilities**: Token generation, validation, and refresh mechanisms
-- **Encryption Helpers**: Data encryption and decryption utilities
-- **Permission System**: Role-based access control (RBAC) utilities
-- **Audit Logging**: Comprehensive activity tracking and logging
-- **Input Sanitization**: Security-focused data sanitization functions
-
-### 📊 Data Management
-- **Database Utilities**: Common database operations and query builders
-- **API Helpers**: HTTP client utilities with retry and caching
-- **Data Transformers**: Data mapping and transformation utilities
-- **Cache Management**: Redis and in-memory caching utilities
-- **File Processing**: File upload, validation, and processing utilities
-
-### 🔔 Notifications & Events
-- **Event System**: Custom event handling and dispatching
-- **Notification Service**: Email, SMS, and push notification utilities
-- **Webhook Management**: Webhook creation and processing utilities
-- **Queue Management**: Background job processing utilities
-- **Real-time Updates**: WebSocket connection management
+- **Frontend**: Modern Frontend
+- **Backend**: Scalable Backend
+- **Database**: Database
+- **Infrastructure**: Infrastructure
 
 ---
 
-## 📋 Quick Start
+## 📋 Table of Contents
 
-### Prerequisites
-- Node.js >= 18.0.0
-- npm or yarn
-- TypeScript >= 4.9.0
+- [Features](#-features)
+- [Quick Start](#-quick-start)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Documentation](#-documentation)
+- [Screenshots](#-screenshots)
+- [FAQ](#-faq)
+- [Contributing](#-contributing)
+- [Support](#-support)
+- [License](#-license)
+- [About Tiation](#-about-tiation)
 
-### 🚀 Installation
+---
+
+## ✨ Features
+
+{{FEATURES_LIST}}
+
+---
+
+## 🏃‍♂️ Quick Start
 
 ```bash
 # Clone the repository
@@ -100,140 +86,153 @@ git clone https://github.com/tiation/tiation-rigger-shared-libraries.git
 cd tiation-rigger-shared-libraries
 
 # Install dependencies
-npm install
+{{INSTALL_COMMANDS}}
 
-# Build library
-npm run build
-
-# Run tests
-npm run test
-
-# Generate documentation
-npm run docs
-
-# Publish to npm (if authorized)
-npm publish
-```
-
-### 🔧 Usage in Projects
-
-```bash
-# Install in your project
-npm install @tiation/rigger-shared-libraries
-
-# Import utilities
-import { validateEmail, hashPassword } from '@tiation/rigger-shared-libraries';
-import { UserRole, ApiResponse } from '@tiation/rigger-shared-libraries/types';
-```
-
-### 📝 Example Usage
-
-```typescript
-import { 
-  validateEmail, 
-  hashPassword, 
-  generateJWT, 
-  sanitizeInput 
-} from '@tiation/rigger-shared-libraries';
-
-// Email validation
-if (validateEmail('user@example.com')) {
-  console.log('Valid email');
-}
-
-// Password hashing
-const hashedPassword = await hashPassword('user-password');
-
-// JWT generation
-const token = generateJWT({ userId: 123, role: 'admin' });
-
-// Input sanitization
-const cleanInput = sanitizeInput(userInput);
+# Run the application
+{{RUN_COMMANDS}}
 ```
 
 ---
 
-## 🛠️ Technology Stack
+## 📦 Installation
 
-### Core Technologies
-- **Language**: TypeScript 5.0+
-- **Build Tool**: Rollup with TypeScript plugin
-- **Testing**: Jest with TypeScript support
-- **Documentation**: TypeDoc with custom themes
-- **Linting**: ESLint with TypeScript rules
+### Prerequisites
 
-### Development Tools
-- **Package Manager**: npm with workspaces
-- **Version Control**: Semantic versioning
-- **CI/CD**: GitHub Actions
-- **Code Quality**: Prettier, Husky
-- **Security**: Snyk vulnerability scanning
+{{PREREQUISITES}}
 
-### Validation & Security
-- **Schema Validation**: Zod
-- **Encryption**: crypto-js, bcrypt
-- **JWT Handling**: jsonwebtoken
-- **Input Sanitization**: DOMPurify
-- **Rate Limiting**: express-rate-limit
+### Installation Steps
 
----
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/tiation/tiation-rigger-shared-libraries.git
+   cd tiation-rigger-shared-libraries
+   ```
 
-## 📊 Screenshots
+2. **Install dependencies**
+   ```bash
+   {{DETAILED_INSTALL_COMMANDS}}
+   ```
 
-### Documentation Site
-![Documentation Site](./assets/images/documentation-site.png)
-
-### Type Definitions
-![Type Definitions](./assets/images/type-definitions.png)
-
-### API Reference
-![API Reference](./assets/images/api-reference.png)
-
-### Test Coverage
-![Test Coverage](./assets/images/test-coverage.png)
+3. **Configuration**
+   ```bash
+   {{CONFIG_COMMANDS}}
+   ```
 
 ---
 
-## 📊 Library Metrics
+## 🎯 Usage
 
-### Code Quality
-- **Test Coverage**: 95%+
-- **Type Safety**: 100% TypeScript
-- **Bundle Size**: < 50KB minified
-- **Performance**: < 1ms execution time
+### Basic Usage
 
-### Usage Statistics
-- **Downloads**: 10K+ monthly
-- **Dependencies**: 0 vulnerabilities
-- **Compatibility**: Node.js 18+
-- **Browser Support**: Modern browsers
+{{BASIC_USAGE}}
 
----
+### Advanced Usage
 
-## 🔗 Links
+{{ADVANCED_USAGE}}
 
-- **🌐 Live Documentation**: [tiation.github.io/tiation-rigger-shared-libraries](https://tiation.github.io/tiation-rigger-shared-libraries/)
-- **💻 GitHub Repository**: [github.com/tiation/tiation-rigger-shared-libraries](https://github.com/tiation/tiation-rigger-shared-libraries)
-- **🔧 Main Workspace**: [github.com/tiation/tiation-rigger-workspace](https://github.com/tiation/tiation-rigger-workspace)
-- **📦 NPM Package**: [npmjs.com/package/@tiation/rigger-shared-libraries](https://npmjs.com/package/@tiation/rigger-shared-libraries)
-- **📚 Documentation**: [github.com/tiation/tiation-rigger-workspace-docs](https://github.com/tiation/tiation-rigger-workspace-docs)
+### Examples
+
+{{USAGE_EXAMPLES}}
 
 ---
 
-## 📄 License
+## 📚 Documentation
 
-MIT License - see [LICENSE](LICENSE) for details.
+- **[User Guide](docs/user-guide.md)** - Complete user documentation
+- **[API Reference](docs/api-reference.md)** - Technical API documentation
+- **[Architecture](docs/architecture.md)** - System architecture overview
+- **[Deployment Guide](docs/deployment.md)** - Production deployment instructions
+- **[Developer Guide](docs/developer-guide.md)** - Development setup and guidelines
+
+### Live Documentation
+
+Visit our [GitHub Pages site](https://tiation.github.io/tiation-rigger-shared-libraries) for interactive documentation.
 
 ---
+
+## 📸 Screenshots
 
 <div align="center">
-  <p><strong>Built with ❤️ and 📚 by the Tiation Team</strong></p>
-  <p>© 2024 Tiation. All rights reserved.</p>
-  
-  <a href="https://github.com/tiation/tiation-rigger-shared-libraries">🌟 Star this repo</a> •
-  <a href="https://github.com/tiation/tiation-rigger-shared-libraries/issues">🐛 Report Bug</a> •
-  <a href="https://github.com/tiation/tiation-rigger-shared-libraries/pulls">🔧 Request Feature</a>
+  <img src="assets/screenshots/main-interface.png" alt="Main Interface" width="800">
+  <p><em>Main application interface</em></p>
 </div>
+
+<div align="center">
+  <img src="assets/screenshots/dashboard.png" alt="Dashboard" width="800">
+  <p><em>Analytics dashboard</em></p>
+</div>
+
+---
+
+## ❓ FAQ
+
+### General Questions
+
+**Q: What makes this solution enterprise-grade?**
+A: Our solution includes comprehensive security, scalability, monitoring, and enterprise integration features with professional support.
+
+**Q: Is this compatible with existing systems?**
+A: Yes, we provide extensive API and integration capabilities for seamless system integration.
+
+**Q: What support options are available?**
+A: We offer community support through GitHub Issues and professional enterprise support for commercial users.
+
+### Technical Questions
+
+**Q: What are the system requirements?**
+A: {{SYSTEM_REQUIREMENTS}}
+
+**Q: How do I handle large scale deployments?**
+A: See our [Deployment Guide](docs/deployment.md) for enterprise-scale deployment strategies.
+
+**Q: Are there any security considerations?**
+A: Yes, please review our [Security Guide](docs/security.md) for comprehensive security best practices.
+
+### Troubleshooting
+
+**Q: Common installation issues**
+A: Check our [Troubleshooting Guide](docs/troubleshooting.md) for solutions to common problems.
+
+**Q: Performance optimization**
+A: Refer to our [Performance Guide](docs/performance.md) for optimization strategies.
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
+
+### Development Setup
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Add tests
+5. Submit a pull request
+
+### Code of Conduct
+
+Please read our [Code of Conduct](CODE_OF_CONDUCT.md) before contributing.
+
+---
+
+## 🆘 Support
+
+### Community Support
+
+- **GitHub Issues**: [Report bugs or request features](https://github.com/tiation/tiation-rigger-shared-libraries/issues)
+- **Discussions**: [Join community discussions](https://github.com/tiation/tiation-rigger-shared-libraries/discussions)
+- **Documentation**: [Browse our documentation](https://tiation.github.io/tiation-rigger-shared-libraries)
+
+### Enterprise Support
+
+For enterprise customers, we offer:
+- Priority support
+- Custom development
+- Training and consultation
+- SLA guarantees
+
+Contact us at [tiatheone@protonmail.com](mailto:tiatheone@protonmail.com)
 
 ---
 
@@ -241,12 +240,49 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 This repository is part of the Tiation ecosystem. Explore related projects:
 
-- [🌟 TiaAstor](https://github.com/TiaAstor/TiaAstor) - Personal brand and story
+- [🌟 Tiation Platform](https://github.com/tiation/tiation-ai-platform) - Enterprise AI platform
+- [🤖 AI Agents](https://github.com/tiation/tiation-ai-agents) - Intelligent automation
+- [⚡ Terminal Workflows](https://github.com/tiation/tiation-terminal-workflows) - Developer tools
+- [🐳 Docker Solutions](https://github.com/tiation/tiation-docker-debian) - Container orchestration
+- [📝 CMS](https://github.com/tiation/tiation-cms) - Content management system
 - [🐰 ChaseWhiteRabbit NGO](https://github.com/tiation/tiation-chase-white-rabbit-ngo) - Social impact initiatives
 - [🏗️ Infrastructure](https://github.com/tiation/tiation-rigger-infrastructure) - Enterprise infrastructure
-- [🤖 AI Agents](https://github.com/tiation/tiation-ai-agents) - Intelligent automation
-- [📝 CMS](https://github.com/tiation/tiation-cms) - Content management system
-- [⚡ Terminal Workflows](https://github.com/tiation/tiation-terminal-workflows) - Developer tools
 
 ---
-*Built with 💜 by the Tiation team*
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🌟 About Tiation
+
+**Tiation** is a leading provider of enterprise-grade software solutions, specializing in automation, productivity, and system integration tools. Our mission is to empower organizations with cutting-edge technology that drives efficiency and innovation.
+
+### Our Solutions
+
+- **Automation Platform**: Comprehensive business process automation
+- **Developer Tools**: Professional development and deployment tools
+- **Enterprise Integration**: Seamless system integration solutions
+- **Security Framework**: Advanced security and compliance tools
+
+### Connect With Us
+
+- **Website**: [https://github.com/tiation](https://github.com/tiation)
+- **GitHub**: [https://github.com/tiation](https://github.com/tiation)
+- **LinkedIn**: [Tiation Company](https://linkedin.com/company/tiation)
+- **Twitter**: [@TiationTech](https://twitter.com/TiationTech)
+
+---
+
+<div align="center">
+  <p>
+    <strong>Built with ❤️ by the Tiation Team</strong>
+  </p>
+  <p>
+    <a href="https://github.com/tiation">
+      <img src="https://img.shields.io/badge/Powered%20by-Tiation-cyan.svg" alt="Powered by Tiation">
+    </a>
+  </p>
+</div>
